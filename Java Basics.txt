@@ -1,0 +1,81 @@
+Java Basics:
+1. Whenever we are going to write any program in java, the business logic/code/logical behavior must be inside a class or an interface
+
+Class/Interface:
+It’s basically a design pattern/structure/blue print.
+
+Declaring a class:
+Syntax:
+<access specifier> class <class name>
+{
+	<codes>;
+}
+
+Q. What class contains?
+Ans: Methods/functions and variables
+
+Variables:
+It’s a container/memory location where we can store the data
+
+Datatypes:
+1. These are different types of data which can be stored in the memory location
+2. In java there 2 different types of datatypes
+    1. Primitive
+    2. Derived/Non-primitive
+Primitive:
+1. boolean ——> Can take only true/false value ———> Default value: false
+2. char ———-> can allow a single character value and must enclosed inside single quote ———> Default value: 0
+3. byte ———-> Memory use : 1byte = 8 bits ———> Can hold only real numbers ————> Default value: 0
+4. short ———-> Memory use : 2bytes = 16 bits ———> Can hold only real numbers ————> Default value: 0
+5. int ———-> Memory use : 4bytes = 32 bits ———> Can hold only real numbers ————> Default value: 0
+6. long ———-> Memory use : 8bytes = 64 bits ———> Can hold only real numbers ————> Default value: 0
+7. float ———-> Memory use : 4bytes = 32 bits ———> Can hold only decimal numbers ————> Default value: 0.0
+8. double ———-> Memory use : 8bytes = 64 bits ———> Can hold only real numbers ————> Default value: 0.0
+Non-primitive/Derived:
+All class type variables/reference. ———> Default value: null
+Ex: String, Arrays, Long, Boolean, Double, Integer, Short, Character, Byte, Float etc.
+
+Keywords:
+Each & every programming and scripting languages have their set of keywords. These keywords are the reserved words for the respective programming/scripting language.
+
+Note:
+1. All keywords in java must be in lower case
+2. All variable names should start with lower case i.e. in camel case. ex: textEditing
+3. All class names should start with upper case i.e. in Pascal. Ex: FindEven
+4. All method names should start with lower case. Ex: findLargest()
+
+Declaring a variable:
+1. Variable declaration only Syntax: datatype variableName Ex: int count;
+2. Variable declaration with initialization Syntax: datatype variableName = value; Ex: int count = 5;
+3. Declaring multiple variables of similar type Syntax: char c1, c2, c3,…;
+4. Initializing multiple variables of similar datatype Syntax: datatype var1=value1, var2=val2,….; Ex: float f1=4.3, f2=5.8;
+
+Different types of variables:
+1. local
+2. static
+3. non-static
+
+Methods:
+It’s a block which contains a piece of business logic/code/set of logics to perform a specific task.
+
+Declaration of the method:
+<access specifier> <static/non-static> <return type> <method name>
+{
+	<lines of code>
+}
+
+Hierarchy:
+Class/Interface
+	1. Variables ————> Global variables
+	2. Methods
+		Variables ———> Local Variables
+
+Local Variable:
+1. Declared inside the method
+2. The scope of local variable is inside the declared method. If trying to use/access outside of the declared method then we are going to get compilation error
+3. Mandatory to initialize the variable before its use else we are going to get compilation error
+
+Global Variable:
+1. Declared inside the class/interface
+2. The scope of the global variable is inside the declared class/interface
+3. Not mandatory to initialize the variable. If initialized then it’ll take the assigned value else it’ll be assigned with the default value.
