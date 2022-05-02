@@ -24,8 +24,8 @@ Datatypes:
     2. Derived/Non-primitive
 Primitive:
 1. boolean ——> Can take only true/false value ———> Default value: false
-2. char ———-> can allow a single character value and must enclosed inside single quote ———> Default value: 0
-3. byte ———-> Memory use : 1byte = 8 bits ———> Can hold only real numbers ————> Default value: Single Space
+2. char ———-> can allow a single character value and must enclosed inside single quote ———> Default value: Single Space
+3. byte ———-> Memory use : 1byte = 8 bits ———> Can hold only real numbers ————> Default value: 0
 4. short ———-> Memory use : 2bytes = 16 bits ———> Can hold only real numbers ————> Default value: 0
 5. int ———-> Memory use : 4bytes = 32 bits ———> Can hold only real numbers ————> Default value: 0
 6. long ———-> Memory use : 8bytes = 64 bits ———> Can hold only real numbers ————> Default value: 0
